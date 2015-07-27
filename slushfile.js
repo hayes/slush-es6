@@ -24,7 +24,7 @@ gulp.task('app', function generate (done) {
   inquirer.prompt(questions, writeFiles.bind(null, 'app'))
 })
 
-function writeFiles (ctx, dir) {
+function writeFiles (dir, ctx) {
   gulp.src(path.join(__dirname, 'templates', dir, '**'))
     .pipe(template(ctx))
     .pipe(gulp.dest('./'))
