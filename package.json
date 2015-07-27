@@ -1,6 +1,6 @@
 {
   "name": "slush-raw-es6",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A template for writing es6 modules without checking in compiled source",
   "main": "slushfile.js",
   "scripts": {
