@@ -28,6 +28,6 @@ To generate an app that consumes an es6 module that works with node,
 slush es6:app
 ```
 
-#license
+## License
 
 ### ISC
